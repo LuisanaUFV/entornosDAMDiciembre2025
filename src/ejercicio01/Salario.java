@@ -13,7 +13,7 @@ public class Salario {
 	public int calcularSalarioFinal() {
 	  int res = 0;
 	  if (this.antiguedad > 3)
-		res = this.salarioBase + this.antiguedad * 1000 + this.plus;
+		res = this.salarioBase + this.antiguedad * 2000 + this.plus;
 	  else
  	   if (this.plus <= 1000)
 	     res = this.salarioBase + this.plus * 2;
