@@ -11,6 +11,9 @@ public class Salario {
 	}
 	
 	public int calcularSalarioFinal() {
+	 /*
+	  * Método para calcular el salario final en base a: antiguedad, plus y salarioBase	
+	  */
 	  int res = 0;
 	  if (this.antiguedad > 3)
 		res = this.salarioBase + this.antiguedad * 2000 + this.plus;
