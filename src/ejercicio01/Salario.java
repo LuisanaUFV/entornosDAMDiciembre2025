@@ -3,7 +3,7 @@ package ejercicio01;
 public class Salario {
 	private int salarioBase = 40000;
 	private int antiguedad;
-	private int plus;
+	private int plus;  
 	
 	public Salario(int antiguedad, int plus){
 		this.antiguedad = antiguedad;
